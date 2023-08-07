@@ -26,6 +26,9 @@ python -m src.pythontemplate
 ## Developer
 
 ```bash
+sudo apt install ruby-rubygems
+conda env create --file environment.yml
+conda activate pythontemplate
 pre-commit install
 pre-commit autoupdate
 pre-commit run --all
